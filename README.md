@@ -1,5 +1,5 @@
 # MCMC Bayesian Probit regression
-As part of a course in Probability and Statistic together with 4 collegues we tackled the problem of estimating coefficients in a Bayesian Probit Regression using Metropolis Hasting MCMC (Markov Chain Monte Carlo) techniques
+As part of a course in Probability and Statistic together with 4 collegues we tackled the problem of applying a Bayesian Probit Regression on the SAHearth dataset, estimating cefficientss using Metropolis Hasting MCMC (Markov Chain Monte Carlo) techniques
 
 The file named algorithms.py contains the two algorithm we tried to implement:
 - in MCMC_random at each iteration we randomly select one of the parameters to update, generate a proposal and then accept/reject it
